@@ -7,10 +7,6 @@ import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import CsvDownload from "../components/CsvDownload";
 import MOCK_DATA from "../MOCK_DATA.json";
 import { format } from "date-fns";
-import {
-	DateRangeColumnFilter,
-	dateBetweenFilterFn,
-} from "../components/Filters/DateRangeFilter/DateRangeFilter";
 import { ChipComponent } from "../components/Chip";
 import { CopyLink } from "../components/CopyLink/CopyLink";
 
@@ -31,8 +27,6 @@ const COLUMNS = [
 		Cell: ({ value }) => {
 			return format(new Date(value), "MMM dd, yyyy");
 		},
-		Filter: DateRangeColumnFilter,
-		filter: dateBetweenFilterFn,
 	},
 	{
 		Header: "Hyperlink",
