@@ -1,0 +1,19 @@
+.CopyLink {
+	width: 300px;
+	display: flex;
+	padding: 4px;
+	border-radius: 6px;
+	border: 1px solid rgb(210, 221, 236);
+}
+
+.CopyLinkInput {
+	outline: none;
+	background-color: rgb(255, 255, 255);
+	border-style: hidden;
+	width: 100%;
+}
+
+.CopyLinkButton {
+	outline: none;
+	background-color: rgb(255, 255, 255);
+}

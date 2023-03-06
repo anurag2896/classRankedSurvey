@@ -1,0 +1,15 @@
+.SearchFilter {
+	width: 300px;
+	display: flex;
+	padding: 4px;
+	border-radius: 6px;
+	border: 1px solid rgb(210, 221, 236);
+}
+
+.SearchFilterInput {
+	outline: none;
+	background-color: rgb(255, 255, 255);
+	border-style: hidden;
+	padding: 4px;
+	width: 100%;
+}

@@ -1,0 +1,96 @@
+table {
+	/* border: 1px solid #ddd; */
+	border-spacing: 0;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+table td {
+	padding: 8px;
+}
+
+table th {
+	padding: 8px;
+}
+
+table tr:hover {
+	border-bottom: none;
+	background-color: #f0f2f5;
+}
+
+table tr {
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+	height: 72px;
+}
+
+table th {
+	border-bottom: 1px solid #ddd;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: left;
+	font-weight: 500;
+	color: #364049;
+	background-color: #f0f2f5;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	border-spacing: 0;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 16px;
+	/* width: auto; */
+	width: 1000px;
+	min-width: 600px;
+	margin: 2rem 2rem;
+}
+
+.FilterRow {
+	margin: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1000px;
+	min-width: 600px;
+	margin: 2rem 2rem;
+}
+
+.ButtonRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 8px;
+	margin: 2rem 2rem;
+}
+
+.title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 48px;
+	margin-left: 1rem;
+}
+
+.pagination {
+	display: flex;
+	justify-content: flex-end;
+	margin: 1rem;
+}
+
+.pageInfo {
+	margin-right: 24px;
+}
+
+.paginationButton {
+	border: none;
+	background: none;
+}
